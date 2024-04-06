@@ -1,0 +1,138 @@
+
+.paras{
+  font-size: 30px;
+  margin: 0;
+  color: white;
+  position: relative;
+  }
+  .title{
+  background-color: #5ab298;
+  padding: 1%;
+  position: relative;
+  
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/background.png);
+    background-size: cover;
+    height: 95vh;
+  }
+  body::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 29, 10, 0.596);
+  }
+img{
+width: 100px;
+height: 100px;
+border: 2px solid #5AB297;
+border-radius:50px;
+position: relative;
+}
+
+.container {
+  display: flex;
+  margin-top:5px;
+  margin-left: 50px;
+}
+
+.flex2{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.h1 {
+  font-size: x-large;
+  margin-left: 20px;
+  font-weight: 1000;
+  margin: 0;
+  position: relative;
+  color: white;
+}
+.check{
+  color: #5AB297;
+  position: relative;
+
+}
+
+.btn1{
+position: relative;
+padding: 7px;
+font-size: large;
+width: 200px;
+margin-left: 60px;
+margin-top: 20px;
+background-color: #5AB297;
+color: white;
+}
+.btn1:hover{
+background-color: white;
+color: #5AB297;
+
+}
+.btn2{
+  position: relative;
+  padding: 7px;
+  font-size: large;
+  width: 200px;
+  margin-top: 20px;
+  background-color: #5AB297;
+  color: white;
+  }
+  .btn2:hover{
+  background-color: white;
+  color: #5AB297;
+    }
+  .btn3{
+    position: relative;
+    padding: 7px;
+    font-size: large;
+    width: 200px;
+    margin-top: 20px;
+    background-color: #5AB297;
+    color: white;
+    }
+    .btn3:hover{
+    background-color: white;
+    color: #5AB297;
+    }
+    .back{
+      padding-top: 25px;
+      margin-left: 1700px;
+
+    }
+  .fa-arrow-left{
+    color:#5AB297;
+    position: relative;
+  }
+  .ps1{
+  position: relative;
+  color: white;
+  font-size: 35px;
+  width: 1600px;
+  margin-left: 60px;
+  }
+  .box{
+    position: relative;
+    border:1px solid;
+    width: 1680px;
+    height: 310px;
+    background-color: #5ab2984b;
+    border-radius: 10px;
+    margin-top: 90px;
+  }
+  .display{
+    display: inline-block;
+    width: 50%;
+    margin-left: 120px;
+
+  }
+  
+
+  
+  

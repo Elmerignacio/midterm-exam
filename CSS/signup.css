@@ -1,0 +1,102 @@
+.paras{
+  font-size: 30px;
+  margin: 0;
+  color: white;
+  position: relative;
+  }
+  .title{
+  background-color: #5ab298;
+  padding: 1%;
+  position: relative;
+  
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/background.png);
+    background-size: cover;
+    height: 95vh;
+  }
+  body::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 29, 10, 0.596);
+  }
+.box-login{
+  position: relative;
+  border:1.8px solid;
+  width: 515px;
+  height: 430px;
+  margin-left:230px ;
+  margin-top: 250px;
+  background-color: #5ab2984b;
+  border-radius: 10px;
+}
+.para{
+  color:white;
+  position: relative;
+  margin-left: 360px;
+  font-size: 22px;
+
+}
+.para1{
+font-size: 50px;
+margin-left: 60px;
+margin-top: 18px;
+}
+.fname{
+padding: 15px;
+width: 160px;
+margin-left: 60px;
+margin-top: 20px;
+}
+.lname{
+  padding: 15px;
+  width: 160px;
+  margin-left: 5px;
+  margin-top: 20px;
+  }
+.birtD{
+  padding: 15px;
+  width: 360px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.btn1{
+  padding: 10px;
+  width: 70px;
+  margin-top: 20px;
+  background-color: #5ab298;
+  margin-left: 165px;
+}
+.btn2{
+  padding: 10px;
+  width: 70px;
+  margin-top: 20px;
+  background-color: #5ab298;
+  margin-left: 40px;
+}
+.para2{
+margin-top: 15px;
+margin-left: 60px;
+font-size: larger;
+color: white;
+}
+.flex{
+display: flex;
+
+}
+.logo{
+  height:350px ;
+  width: 450px;
+  position: relative;
+  margin-top: 270px;
+  margin-left: 350px;
+}
+.group1{
+  display: flex;
+}

@@ -1,0 +1,89 @@
+
+.paras{
+  font-size: 30px;
+  margin: 0;
+  color: white;
+  position: relative;
+  }
+  .title{
+  background-color: #5ab298;
+  padding: 1%;
+  position: relative;
+  
+  }
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/background.png);
+  background-size: cover;
+  height: 95vh;
+}
+body::before{
+	content:"";
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(46, 29, 10, 0.596);
+}
+
+.box-login{
+  position: relative;
+  border:1.8px solid;
+  width: 500px;
+  height: 350px;
+  margin-left:230px ;
+  margin-top: 250px;
+  background-color: #5ab2984b;
+  border-radius: 10px;
+}
+.para{
+  color:white;
+  position: relative;
+  margin-left: 360px;
+  font-size: 22px;
+}
+.para2{
+margin-left: 60px;
+
+}
+.para1{
+font-size: 50px;
+margin-left: 60px;
+margin-top: 18px;
+}
+.email{
+padding: 15px;
+width: 345px;
+margin-left: 60px;
+margin-top: 20px;
+}
+.password{
+  padding: 15px;
+  width: 345px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.btn{
+  padding: 10px;
+  width: 380px;
+  margin-left: 60px;
+  margin-top: 20px;
+  background-color: #5ab298;
+}
+.btn:hover{
+  background-color: white;
+  color: #5ab298;
+}
+.flex{
+display: flex;
+
+}
+.logo{
+  height:350px ;
+  width: 450px;
+  position: relative;
+  margin-top: 230px;
+  margin-left: 350px;
+}
